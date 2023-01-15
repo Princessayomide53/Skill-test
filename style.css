@@ -65,9 +65,11 @@ justify-content: space-around;
 
 .text4{
     display: flex;
-    padding-top: 8px;
-    padding-right: 10px;
+    padding-top: 20px;
+    /* padding-right: 10px; */
 }
+
+
 
 .text5{
     color:black;
@@ -401,6 +403,10 @@ display: block;
          font-size: medium;
      }
 
+     .text4{
+        display: none;
+     }
+
      .text5{
         font-size: 20px;
      }
@@ -408,6 +414,12 @@ display: block;
      .text6{
         font-size: 20px;
      }
+
+     .texxt{
+    display: flex;
+    padding-top: 8px;
+    padding-right: 10px;
+}
 
      .dropdown{
         display:none ;
