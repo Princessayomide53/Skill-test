@@ -65,7 +65,8 @@ justify-content: space-around;
 
 .text4{
     display: flex;
-    padding-top: 20px;
+    padding-top: 8px;
+    padding-right: 10px;
 }
 
 .text5{
@@ -95,6 +96,10 @@ font-size: 12px;
 .dropdownmenu:hover + .menu-all{
 display: block;
 }
+
+/* .form1{
+    width: 100%;
+} */
 
 .menu{
     /* display: none; */
@@ -223,10 +228,10 @@ display: block;
     border-radius: 4px;
 }
 
-/* .form1 {
-    /* width: 100%; */
-    /* margin-top: 2px; */
-/* } */ */
+.form1 {
+    width: 100%;
+    margin-top: 2px;
+}
 
 .input1{
     width: 100%;
@@ -253,6 +258,7 @@ display: block;
 }
 
 .txt{
+    width: 100%;
     display: flex;
     gap: 8px;
 }
@@ -364,13 +370,13 @@ display: block;
 
     .navbar {
         background-color: floralwhite !important;
-        margin-left: 80px;
+        /* margin-left: 80px; */
         margin-top: 5px;
         display: flex;
-        justify-content: end;
-        justify-items: end;
-        justify-self: end;
-       width: 35%;
+        justify-content: space-between;
+        justify-items: center;
+        /* justify-self: end; */
+       width: 100%;
     }
 
 
@@ -456,7 +462,7 @@ display: block;
 
 @media only screen and (max-width: 481px) {
             .navbar-expand-lg {
-                    width: 200px;
+                    width: 100%;
                 }
     }
 
