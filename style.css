@@ -202,6 +202,7 @@ display: block;
 
 .container {
     width: 42%; 
+    margin-left: 20px;
      /* background-color: blanchedalmond;  */
 } 
 
@@ -462,7 +463,7 @@ display: block;
 
      .container {
         width: 90%;
-         /* margin-left: 2px; */
+         margin-left: 2px;
         margin-right: 80px;
      }
 
@@ -478,11 +479,11 @@ display: block;
             .navbar-expand-lg {
                     width: 100%;
                 }
-
-            /* .container {
-                     width: 90%;
-                     margin-left: 20px;
-                       /* margin-right: 80px; */
-                                 /* } */ 
+                        .container {
+             width: 90%;
+            margin-left: 2px;
+             /* margin-right: 40px; */
+                        }
+            
     }
 
